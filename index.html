@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danh sách sản phẩm - Bài tập 35</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Danh Sách Sản Phẩm</h1>
+      <div class="search-box">
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Nhập tên sản phẩm cần tìm..." 
+          autocomplete="off"
+        />
+      </div>
+    </header>
+
+    <!-- Khu vực hiển thị thông báo khi không tìm thấy -->
+    <p id="errorMessage" class="error-message hidden"></p>
+
+    <!-- Khu vực hiển thị danh sách sản phẩm -->
+    <main id="productList" class="product-grid"></main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
